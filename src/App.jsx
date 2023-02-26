@@ -1,17 +1,17 @@
 import './App.css'
 
-export function App() {
+export default function App() {
   return (
-    <article>
-      <header>
-        <img src="https://unavatar.io/leonvallejos" alt="avatar-leonvallejos" />
-        <div>
+    <article className='tw-followCard'>
+      <header className='tw-followCard-header'>
+        <img className='tw-followCard-avatar' src="https://unavatar.io/leonvallejos" alt="avatar-leonvallejos" />
+        <div className='tw-followCard-info'>
           <strong>Leon Vallejos</strong>
-          <span>@leonvallejos</span>
+          <span tw-followCard-infoUserName>@leonvallejos</span>
         </div>
       </header>
       <aside>
-        <button>Seguir</button>
+        <button className='tw-followCard-button'>Seguir</button>
       </aside>
     </article>
   )
