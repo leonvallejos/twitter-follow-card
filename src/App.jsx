@@ -3,7 +3,10 @@ import TwitterFollowCard from './components/TwitterFollowCard'
 
 export default function App() {
   return (
-    <TwitterFollowCard/>
+    <section className='App'>
+      <TwitterFollowCard userName={'leonvallejos'} name="Leon Vallejos"/>
+      <TwitterFollowCard userName={'devteam'} name="Developers team"/>
+    </section>
   )
 
 }
