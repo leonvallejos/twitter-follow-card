@@ -6,8 +6,8 @@ export default function App() {
     <section className='App'>
       <TwitterFollowCard 
       isFollowing={true} 
-      userName={'leonvallejos'} 
-      name="Leon Vallejos"
+      userName={'macstation'} 
+      name="macstation"
       />
 
       <TwitterFollowCard
@@ -51,6 +51,13 @@ export default function App() {
        userName={'ubuntu'}
        name="Ubuntu"
       />
+
+<TwitterFollowCard
+       isFollowing={false}
+       userName={'xd'}
+       name="Ubuxdntu"
+      />
+
 
     </section>
   )
